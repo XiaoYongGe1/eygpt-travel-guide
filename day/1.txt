@@ -1,10 +1,10 @@
 1:HL["/egypt-travel-guide/_next/static/css/d45f44d4adff409a.css","style",{"crossOrigin":""}]
-0:["3qSqKdxCZQoE-fHrsKCxJ",[[["",{"children":["day",{"children":[["id","1","d"],{"children":["__PAGE__?{\"id\":\"1\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/egypt-travel-guide/_next/static/css/d45f44d4adff409a.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
-4:I[3827,["326","static/chunks/326-b0e69e8f4b6be903.js","185","static/chunks/app/layout-f631f6e19651b725.js"],""]
+0:["0ay03gE3c3hQRbGQZeaqz",[[["",{"children":["day",{"children":[["id","1","d"],{"children":["__PAGE__?{\"id\":\"1\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/egypt-travel-guide/_next/static/css/d45f44d4adff409a.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:I[3827,["326","static/chunks/326-a7a658472acce816.js","185","static/chunks/app/layout-f631f6e19651b725.js"],""]
 5:I[6954,[],""]
 6:I[7264,[],""]
-8:I[8326,["326","static/chunks/326-b0e69e8f4b6be903.js","413","static/chunks/413-09ee7adbd9582140.js","895","static/chunks/app/day/%5Bid%5D/page-4613c2888b00f666.js"],""]
-9:I[7752,["326","static/chunks/326-b0e69e8f4b6be903.js","413","static/chunks/413-09ee7adbd9582140.js","895","static/chunks/app/day/%5Bid%5D/page-4613c2888b00f666.js"],""]
+8:I[8326,["326","static/chunks/326-a7a658472acce816.js","413","static/chunks/413-6bebc810370376bb.js","895","static/chunks/app/day/%5Bid%5D/page-17ff101e174aff4e.js"],""]
+9:I[7752,["326","static/chunks/326-a7a658472acce816.js","413","static/chunks/413-6bebc810370376bb.js","895","static/chunks/app/day/%5Bid%5D/page-17ff101e174aff4e.js"],""]
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"埃及探索之旅 - 8天7晚完整路书"}],["$","meta","2",{"name":"description","content":"2026年4月28日-5月5日埃及旅游完整攻略,包含开罗、马特鲁、卢克索、赫尔格达详细行程"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:Td92,【吉萨金字塔群 - 永恒的奇迹】
 
