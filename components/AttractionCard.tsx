@@ -18,7 +18,7 @@ export default function AttractionCard({ attraction }: AttractionCardProps) {
       {attraction.image && (
         <div className="relative aspect-[16/9] rounded-xl overflow-hidden">
           <img
-            src={attraction.image}
+            src={`/egypt-travel-guide${attraction.image}`} 
             alt={attraction.name}
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             className="object-cover"
