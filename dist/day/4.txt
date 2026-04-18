@@ -1,5 +1,5 @@
 1:HL["/eygpt-travel-guide/_next/static/css/d45f44d4adff409a.css","style",{"crossOrigin":""}]
-0:["3mBh4AK01bhqCh7bMQWKA",[[["",{"children":["day",{"children":[["id","4","d"],{"children":["__PAGE__?{\"id\":\"4\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/eygpt-travel-guide/_next/static/css/d45f44d4adff409a.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["qS0kOIZQsZ9AqGpBK8ZRv",[[["",{"children":["day",{"children":[["id","4","d"],{"children":["__PAGE__?{\"id\":\"4\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/eygpt-travel-guide/_next/static/css/d45f44d4adff409a.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I[3827,["326","static/chunks/326-b0e69e8f4b6be903.js","185","static/chunks/app/layout-f631f6e19651b725.js"],""]
 5:I[6954,[],""]
 6:I[7264,[],""]
