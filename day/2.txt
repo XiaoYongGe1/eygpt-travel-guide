@@ -1,10 +1,10 @@
 1:HL["/egypt-travel-guide/_next/static/css/d45f44d4adff409a.css","style",{"crossOrigin":""}]
-0:["xeQ77m_dQho4JE1QuT1c6",[[["",{"children":["day",{"children":[["id","2","d"],{"children":["__PAGE__?{\"id\":\"2\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/egypt-travel-guide/_next/static/css/d45f44d4adff409a.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["A0tM6Kf02pfN_OykuPn5d",[[["",{"children":["day",{"children":[["id","2","d"],{"children":["__PAGE__?{\"id\":\"2\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/egypt-travel-guide/_next/static/css/d45f44d4adff409a.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I[3827,["326","static/chunks/326-a7a658472acce816.js","185","static/chunks/app/layout-f631f6e19651b725.js"],""]
 5:I[6954,[],""]
 6:I[7264,[],""]
-8:I[8326,["326","static/chunks/326-a7a658472acce816.js","413","static/chunks/413-6bebc810370376bb.js","895","static/chunks/app/day/%5Bid%5D/page-17ff101e174aff4e.js"],""]
-9:I[7752,["326","static/chunks/326-a7a658472acce816.js","413","static/chunks/413-6bebc810370376bb.js","895","static/chunks/app/day/%5Bid%5D/page-17ff101e174aff4e.js"],""]
+8:I[8326,["326","static/chunks/326-a7a658472acce816.js","895","static/chunks/app/day/%5Bid%5D/page-63c6e0e1bec87d6b.js"],""]
+9:I[7752,["326","static/chunks/326-a7a658472acce816.js","895","static/chunks/app/day/%5Bid%5D/page-63c6e0e1bec87d6b.js"],""]
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"埃及探索之旅 - 8天7晚完整路书"}],["$","meta","2",{"name":"description","content":"2026年4月28日-5月5日埃及旅游完整攻略,包含开罗、马特鲁、卢克索、赫尔格达详细行程"}],["$","meta","3",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 a:Te86,【马特鲁 - 埃及艳后的秘密花园】
 
