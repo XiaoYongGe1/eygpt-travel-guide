@@ -1,3 +1,9 @@
+export interface Artifact {
+  name: string;
+  image?: string;
+  description: string;
+}
+
 export interface Attraction {
   name: string;
   time?: string;
@@ -7,6 +13,15 @@ export interface Attraction {
   history: string;
   visitTips?: string[];
   image?: string;
+  artifacts?: Artifact[];
+  subAttractions?: SubAttraction[];
+}
+
+export interface SubAttraction {
+  name: string;
+  description: string;
+  image?: string;
+  coordinates?: [number, number];
 }
 
 export interface Restaurant {

@@ -3,32 +3,40 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 61, 43, 31;
-  --background-rgb: 255, 248, 231;
+  /* 杂志风格配色 - 简约高级 */
+  --color-bg: #FAFAFA;
+  --color-text: #1A1A1A;
+  --color-text-secondary: #666666;
+  --color-accent: #C9A962;
+  --color-accent-dark: #A68B4B;
+  --color-border: #E5E5E5;
+  --color-card: #FFFFFF;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
-  font-family: 'Georgia', 'Times New Roman', serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* 自定义滚动条 */
+/* 简约滚动条 */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #F4E4C1;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #D4AF37;
-  border-radius: 5px;
+  background: #D1D1D1;
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #B8941F;
+  background: #B1B1B1;
 }
 
 /* 平滑滚动 */
@@ -36,13 +44,133 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 埃及风格装饰边框 */
-.egypt-border {
-  border: 3px solid #D4AF37;
-  box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+/* 杂志风格卡片 */
+.magazine-card {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-/* 渐变背景 */
-.egypt-gradient {
-  background: linear-gradient(135deg, #1B3A5C 0%, #2C5F8A 50%, #D4AF37 100%);
+.magazine-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+/* 杂志风格标题 */
+.magazine-title {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+/* 装饰性分隔线 */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, 
+    transparent 0%,
+    var(--color-border) 20%,
+    var(--color-border) 80%,
+    transparent 100%
+  );
+}
+
+/* 图片容器 */
+.image-container {
+  position: relative;
+  overflow: hidden;
+  background: #F5F5F5;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.03);
+}
+
+/* 标签样式 */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+}
+
+/* 按钮样式 */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 32px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  background: var(--color-text);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: var(--color-text-secondary);
+}
+
+/* 引用样式 */
+.quote {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  font-style: italic;
+  color: var(--color-text-secondary);
+  border-left: 2px solid var(--color-accent);
+  padding-left: 24px;
+}
+
+/* 网格布局辅助 */
+.grid-magazine {
+  display: grid;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .grid-magazine {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-magazine {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 文字排版 */
+.text-lead {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
+
+.text-caption {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
+
+/* 高德地图容器 */
+.map-container {
+  width: 100%;
+  height: 400px;
+  background: #F5F5F5;
+  border-radius: 4px;
 }
