@@ -2,7 +2,6 @@
 
 import { Attraction } from '../types';
 import { useState } from 'react';
-import Image from 'next/image';
 
 interface AttractionCardProps {
   attraction: Attraction;
@@ -18,10 +17,10 @@ export default function AttractionCard({ attraction }: AttractionCardProps) {
       {/* 景点图片 */}
       {attraction.image && (
         <div className="relative aspect-[16/9] rounded-xl overflow-hidden">
-          <Image
+          <img
             src={attraction.image}
             alt={attraction.name}
-            fill
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             className="object-cover"
           />
         </div>
