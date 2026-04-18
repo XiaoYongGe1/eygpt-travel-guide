@@ -1,5 +1,5 @@
 1:HL["/egypt-travel-guide/_next/static/css/d45f44d4adff409a.css","style",{"crossOrigin":""}]
-0:["waAcW6bQH9nYaNCoxAKPG",[[["",{"children":["day",{"children":[["id","5","d"],{"children":["__PAGE__?{\"id\":\"5\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/egypt-travel-guide/_next/static/css/d45f44d4adff409a.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+0:["xeQ77m_dQho4JE1QuT1c6",[[["",{"children":["day",{"children":[["id","5","d"],{"children":["__PAGE__?{\"id\":\"5\"}",{}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/egypt-travel-guide/_next/static/css/d45f44d4adff409a.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
 4:I[3827,["326","static/chunks/326-a7a658472acce816.js","185","static/chunks/app/layout-f631f6e19651b725.js"],""]
 5:I[6954,[],""]
 6:I[7264,[],""]
