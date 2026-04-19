@@ -84,6 +84,7 @@ const DETAIL_LOCATIONS: DetailLocation[] = [
   { name: '大埃及博物馆', coords: [29.9946, 31.1206], type: 'attraction', city: '开罗', description: '2024年新开放的博物馆' },
   { name: '哈利利市场', coords: [30.0477, 31.2623], type: 'attraction', city: '开罗', description: '中东最大的传统集市' },
   { name: '萨拉丁城堡', coords: [30.0287, 31.2599], type: 'attraction', city: '开罗', description: '俯瞰开罗全景的堡垒' },
+  { name: '洞穴教堂', coords: [30.0125, 31.2856], type: 'attraction', city: '开罗', description: ' Mokattam 山中的神奇教堂' },
   
   // 开罗 - 住宿
   { name: 'JAZ Pyramids Resort', coords: [29.9760, 31.1250], type: 'hotel', city: '开罗', description: '金字塔景观酒店' },
@@ -111,6 +112,7 @@ const DETAIL_LOCATIONS: DetailLocation[] = [
   { name: '哈特谢普苏特神庙', coords: [25.7375, 32.6069], type: 'attraction', city: '卢克索', description: '女法老的壮观神庙' },
   { name: '哈布城', coords: [25.7194, 32.6011], type: 'attraction', city: '卢克索', description: '拉美西斯三世神庙' },
   { name: '门农巨像', coords: [25.7206, 32.6106], type: 'attraction', city: '卢克索', description: '两座巨型石像' },
+  { name: '丹德拉神庙', coords: [26.1417, 32.6703], type: 'attraction', city: '卢克索', description: '保存最完好的神庙之一' },
   
   // 卢克索 - 住宿
   { name: 'Hilton Luxor', coords: [25.6870, 32.6400], type: 'hotel', city: '卢克索', description: '尼罗河畔五星酒店' },
@@ -272,7 +274,7 @@ export default function LeafletMap({
               <div style="
                 background: ${color.bg};
                 color: ${color.text};
-                padding: 4px 8px;
+                padding: 4px 10px;
                 border-radius: 12px;
                 font-size: 10px;
                 font-weight: 500;
@@ -280,16 +282,19 @@ export default function LeafletMap({
                 box-shadow: 0 2px 4px rgba(0,0,0,0.3);
                 text-align: center;
                 line-height: 1.2;
-                display: flex;
+                display: inline-flex;
                 align-items: center;
                 gap: 4px;
+                max-width: 150px;
+                overflow: hidden;
+                text-overflow: ellipsis;
               ">
-                <span>${icons[location.type]}</span>
-                <span>${location.name}</span>
+                <span style="flex-shrink: 0;">${icons[location.type]}</span>
+                <span style="overflow: hidden; text-overflow: ellipsis;">${location.name}</span>
               </div>
             `,
-            iconSize: [100, 24],
-            iconAnchor: [50, 12],
+            iconSize: [150, 28],
+            iconAnchor: [75, 14],
           });
           
           return (
